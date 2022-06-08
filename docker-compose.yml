@@ -1,5 +1,5 @@
 server:
-  image: hteen/ngrok
+  build: .
   ports:
     - "8082:80"
     - "4432:443"

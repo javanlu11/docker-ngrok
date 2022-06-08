@@ -3,7 +3,7 @@ MAINTAINER hteen <i@hteen.cn>
 
 RUN apk add --no-cache git make openssl
 
-RUN git clone https://github.com/javanlu11/ngrok.git /ngrok
+ADD ngrok /ngrok
 
 ADD *.sh /
 

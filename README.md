@@ -8,7 +8,7 @@ cd docker-ngrok
 docker build -t hteen/ngrok .
 ```
 
-## RUN
+## RUN just test
 * you must mount your folder (E.g `/data/ngrok`) to container `/myfiles`
 * if it is the first run, it will generate the binaries file and CA in your floder `/data/ngrok`
 
